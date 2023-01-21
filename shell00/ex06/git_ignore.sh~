@@ -1,0 +1,4 @@
+#!/bin/sh
+find . -type f | git check-ignore --stdin | tr -d '/.'
+
+git status -s --ignored | grep ^'!!' | cut -c 4-

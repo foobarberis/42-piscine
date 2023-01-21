@@ -1,0 +1,6 @@
+5.ox
+ooo.o
+.oooo
+.o.oo
+....o
+o.oo.
